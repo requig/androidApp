@@ -1,3 +1,4 @@
+//My comments blah
 package com.calculator;
 
 import com.calculator.R;
@@ -23,9 +24,7 @@ public class Main extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        
-        
-        
+                
         vFirstValue = (EditText) findViewById(R.id.EditText01);
         vFirstValue.setText("0");
         vFirstValue.setOnTouchListener(new View.OnTouchListener() {
